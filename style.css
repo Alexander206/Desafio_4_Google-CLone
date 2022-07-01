@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #202124;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  list-style: none;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header nav .listaHeader {
+  width: 250px;
+  height: auto;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav .listaHeader a {
+  margin-right: 10px;
+  color: #fff;
+}
+nav .listaHeader li a img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 3px solid #202124;
+}
+
+nav .listaHeader li a img:hover {
+  width: 35px;
+  height: 35px;
+  border: 3px solid #303035;
+}
+
+.listaHeader a {
+  display: flex;
+  margin: 0 0.5rem;
+}
+
+.listaHeader a:hover {
+  text-decoration: underline;
+}
+
+.profilePicture a img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: right;
+}
+
+.aplication {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: auto auto auto;
+  justify-content: space-between;
+  align-content: space-between;
+  padding: 0.6rem;
+}
+
+.aplication:hover {
+  background-color: #303035;
+}
+
+.aplicationCircle {
+  width: 0.3rem;
+  height: 0.3rem;
+  background-color: #e2e2e3;
+  border-radius: 50%;
+}
+
+/* Estilos para el main */
+
+main {
+  margin-top: 50px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+main .logo h1,
+main .logo h1 span {
+  font-size: 4.5rem;
+}
+
+.logo span {
+  color: #00ff94;
+}
+
+[class^="img"],
+.goxjub {
+  width: 20px;
+  height: 20px;
+}
+
+.main-input {
+  padding: 30px 20px 18px 20px;
+}
+
+main #input {
+  width: 390px;
+  background-color: #202124;
+}
+
+main .main-input__container {
+  margin: 0 auto;
+  width: 480px;
+  height: 40px;
+  border-radius: 100px;
+  border: 1px solid rgb(108, 108, 108);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+main .main-input input {
+  width: 470px;
+  height: 38px;
+  border: none;
+  outline: none;
+}
+
+.main-input__container:hover {
+  background-color: #303035;
+  border: 1px solid #303035;
+  box-shadow: 0 1px 5px 0 #1c1c1c;
+}
+
+main #input:hover {
+  background-color: #303035;
+}
+
+.boton {
+  margin: 18px 3px;
+  width: 144px;
+  height: 36px;
+  background-color: #303035;
+  border-radius: 0.3rem;
+  border: none;
+}
+
+.boton:hover {
+  cursor: pointer;
+  border: 1px solid rgb(108, 108, 108);
+}
+
+main p {
+  color: rgb(177, 177, 177);
+  display: flex;
+  align-content: flex-start;
+  justify-content: center;
+}
+
+main p a {
+  text-decoration: underline;
+  color: cornflowerblue;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.textFooter {
+  display: flex;
+  padding: 15px 30px;
+  background-color: #171717;
+  color: rgb(177, 177, 177);
+  border-bottom: 1px solid rgb(108, 108, 108);
+}
+
+footer section:nth-child(2) {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  font-size: 13px;
+  background-color: #171717;
+}
+
+[class^="listaFooter"] {
+  margin: 10px;
+  display: flex;
+  padding-left: 0;
+}
+
+footer .listaFooter-left {
+  justify-self: left;
+}
+
+footer .listaFooter-rigth {
+  justify-self: right;
+}
+
+.textFooter__li {
+  background-color: #171717;
+}
+
+.textFooter__li a {
+  color: rgb(177, 177, 177);
+  margin: 10px;
+  background-color: #171717;
+}
+
+.textFooter__li:hover {
+  text-decoration: underline;
+}
